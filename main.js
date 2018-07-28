@@ -29,9 +29,10 @@ let elCity = document.getElementById('city')
 elCity.innerHTML = myCity
 
 let elYears = document.getElementById('years')
-elYears.innerHTML = myYears + myName
+elYears.innerHTML = myYears
+
 
 console.log(elName);
-// console.log(elDMV);
 console.log(elCity);
 console.log(elYears);
+
